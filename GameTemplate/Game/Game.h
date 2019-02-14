@@ -14,6 +14,7 @@ public:
 	prefab::CSkinModelRender* m_skinModelRender = nullptr;		//スキンモデルレンダラー。
 	Background* m_background = nullptr;
 	CQuaternion m_rotation = CQuaternion::Identity;
+	CVector3 m_position = CVector3::Zero;
 
 };
 
