@@ -13,5 +13,7 @@ public:
 	void Update();
 	prefab::CSkinModelRender* m_skinModelRender = nullptr;		//スキンモデルレンダラー。
 	Background* m_background = nullptr;
+	CQuaternion m_rotation = CQuaternion::Identity;
+
 };
 
